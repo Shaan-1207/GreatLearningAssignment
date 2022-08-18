@@ -3,9 +3,10 @@ package PreWork_Assignment;
 public class fibonacci {
     
     public void fib(int n){
+        System.out.println("                       ");
         System.out.println("----------------------");
         int f1 = 0, f2 =2;
-
+        
         if (n<1)
         System.out.print(f1 + "  ");
 
@@ -16,6 +17,7 @@ public class fibonacci {
             f2 = nextFib;
         }
         System.out.println("----------------------");
+        System.out.println("                       ");
         
     }
 }

@@ -7,6 +7,7 @@ public class palindromeNumber {
 
     //create a method for checking wheather it is a Palindrome Number or Not...
     public void checkPalindromeNumber(int num){
+        System.out.println("                       ");
         System.out.println("----------------------");
     
     int originalNum = num;
@@ -27,5 +28,6 @@ public class palindromeNumber {
             System.out.println(originalNum+" is not Palindrome");
         }
         System.out.println("----------------------");
+        System.out.println("                       ");
     }
 }

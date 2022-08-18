@@ -2,6 +2,7 @@ package PreWork_Assignment;
 
 public class primeNum {
     public void isPrime(int num){
+        System.out.println("                       ");
         System.out.println("----------------------");
 
         boolean isPrime = false;
@@ -19,6 +20,7 @@ public class primeNum {
             System.out.println(num + " is non-prime number");
         }
         System.out.println("----------------------");
+        System.out.println("                       ");
     }
     
 }
