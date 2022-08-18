@@ -21,20 +21,20 @@ public class PreWork_Assignment {
         primeNum isPrime = new primeNum();
         fibonacci fib = new fibonacci();
 
+        System.out.println(
+                "                                \n"+
+                "--------------------------------\n"+
+                "Choose options from below list.\n" +
+                        "1. Find palindrome of number.\n" +
+                        "2. Print Pattern for a given no.\n" +
+                        "3. Check whether the no is a  prime number.\n" +
+                        "4. Print Fibonacci series.\n" + "--> Enter 0 to Exit <--\n"+
+                        "--------------------------------\n"+
+                        "                                ");
         do {
 
-            System.out.println(
-                    "                                \n"+
-                    "--------------------------------\n"+
-                    "Enter your choice from below list.\n" +
-                            "1. Find palindrome of number.\n" +
-                            "2. Print Pattern for a given no.\n" +
-                            "3. Check whether the no is a  prime number.\n" +
-                            "4. Print Fibonacci series.\n" + "--> Enter 0 to Exit <--\n"+
-                            "--------------------------------\n"+
-                            "                                ");
 
-            System.out.print("Enter number of your choice: ");
+            System.out.print("Choose your option: ");
             choice = sc.nextInt();
 
             switch (choice) {

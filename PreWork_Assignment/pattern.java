@@ -1,7 +1,5 @@
 package PreWork_Assignment;
 
-import javax.sound.sampled.SourceDataLine;
-
 public class pattern {
 
     public void printStarPattern(int num) {
